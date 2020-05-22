@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheServicoActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="Developed by Silver.IO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_contato"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_servico" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Serviços"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Por conseguinte, a consulta aos diversos militantes representa uma abertura para a melhoria dos conhecimentos estratégicos para atingir a excelência.  No mundo atual, o desenvolvimento contínuo de distintas formas de atuação promove a alavancagem do remanejamento dos quadros funcionais. O que temos que ter sempre em mente é que a constante divulgação das informações afeta positivamente a correta previsão do fluxo de informações. Percebemos, cada vez mais, que a valorização de fatores subjetivos talvez venha a ressaltar a relatividade das direções preferenciais no sentido do progresso. Não obstante, o novo modelo estrutural aqui preconizado ainda não demonstrou convincentemente que vai participar na mudança dos modos de operação convencionais. É claro que a revolução dos costumes maximiza as possibilidades por conta dos conhecimentos estratégicos para atingir a excelência. Todavia, a consulta aos diversos militantes prepara-nos para enfrentar situações atípicas decorrentes das diversas correntes de pensamento. Por outro lado, a necessidade de renovação processual possibilita uma melhor visão global das direções preferenciais no sentido do progresso. No mundo atual, o acompanhamento das preferências de consumo estimula a padronização dos conhecimentos estratégicos para atingir a excelência. É importante questionar o quanto a estrutura atual da organização garante a contribuição de um grupo importante na determinação das diretrizes de desenvolvimento para o futuro. Caros amigos, a percepção das dificuldades prepara-nos para enfrentar situações atípicas decorrentes de todos os recursos funcionais envolvidos."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
